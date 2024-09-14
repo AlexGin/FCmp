@@ -26,7 +26,8 @@ FORMS += \
 RESOURCES += FCmp.qrc
 
 INCLUDEPATH += ./
-INCLUDEPATH += $(SPDLOG_DIR)
+INCLUDEPATH += ./images
+INCLUDEPATH += $${SPDLOG_DIR}
 
 # Default rules for deployment.
 #qnx: target.path = /tmp/$${TARGET}/bin
